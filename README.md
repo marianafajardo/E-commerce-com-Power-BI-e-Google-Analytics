@@ -22,7 +22,7 @@ Os dados utilizados nesse dashboard são do Google Merchandise Store e foram ext
 
 ## 3. Estudo de Caso
 
-Uma empresa comercializa produtos online. A empresa configurou o **Google Analytics** para extrair dados sobre o perfil dos visitantes do portal de e-commerce e agora o Gestor da área de Marketing gostaria de ter as respostas às perguntas abaixo:
+Uma empresa comercializa produtos online. A empresa configurou o *Google Analytics* para extrair dados sobre o perfil dos visitantes do portal de e-commerce e agora o Gestor da área de Marketing gostaria de ter as respostas às perguntas abaixo:
 
 1. Como os clientes mais acessam nosso portal, por busca orgânica ou paga?
 2. Quanto tempo em média um visitante permanece em nosso portal por dia do mês?
@@ -37,7 +37,7 @@ Com o carregamento dos dados e a compreensão dos dados, foi possível dar iníc
 
 **1. Como os clientes mais acessam nosso portal, por busca orgânica ou paga?**
 
-Para responder a essa pergunta, foi utilizado um **gráfico de barras clusterizado na horizontal**, trazendo a coluna **"channelgrouping"**, tanto para o eixo X quanto para o eixo Y, concluindo que a maioria dos acessos ao Portal *"Google Merchandise Store"*, foi através de busca orgânica.
+Para responder a essa pergunta, foi utilizado um *gráfico de barras clusterizado na horizontal*, trazendo a coluna **"channelgrouping"**, tanto para o eixo X quanto para o eixo Y, concluindo que a maioria dos acessos ao Portal *"Google Merchandise Store"*, foi através de busca orgânica.
 
 <img src="https://user-images.githubusercontent.com/102304054/175793176-94b13ef4-8160-4c6a-8412-9c2758d4f6df.png"/><a>
 </p>
@@ -46,7 +46,7 @@ Para responder a essa pergunta, foi utilizado um **gráfico de barras clusteriza
 
 **2. Quanto tempo em média um visitante permanece em nosso portal por dia do mês?**
 
-Para responder a essa pergunta, foi utilizado um **gráfico de barras**, trazendo a coluna **"timeonsite_st"** para o eixo Y e alterando os valores dessa coluna, de *"Soma"* para *"Média"*. Em seguida, a coluna **"date"** foi selecionada e direcionada ao eixo X,  *"maximizando a hierarquia de data"*, apenas com a opção *"Dia"*.
+Para responder a essa pergunta, foi utilizado um *gráfico de barras*, trazendo a coluna **"timeonsite_st"** para o eixo Y e alterando os valores dessa coluna, de *"Soma"* para *"Média"*. Em seguida, a coluna **"date"** foi selecionada e direcionada ao eixo X, *"maximizando a hierarquia de data"*, apenas com a opção *"Dia"*.
 
 <img src="https://user-images.githubusercontent.com/102304054/175793181-fdddde8e-b8af-4c6b-8ddd-1b59b6d26f56.png"/><a>
 </p>
@@ -55,37 +55,37 @@ O gráfico a cima apresenta o tempo médio que um visitante permanece no portal 
 
 **3. Qual é a principal fonte de acesso ao nosso portal?**
 
-Para responder a essa pergunta, foi utilizado um **gráfico de cascata**, trazendo a coluna **"source_today"**, tanto para a opção Categoria quanto para o eixo Y, concluindo que a maior fonte para acesso ao portal *"Google Merchandise Store"*, foi o **Google**.
+Para responder a essa pergunta, foi utilizado um *gráfico de cascata*, trazendo a coluna **"source_today"**, tanto para a opção Categoria quanto para o eixo Y, concluindo que a maior fonte para acesso ao portal *"Google Merchandise Store"*, foi o *Google*.
 
 <img src="https://user-images.githubusercontent.com/102304054/175793186-54dbe2a3-7096-41f8-ba42-f722e9f492ca.png"/><a>
 </p>
 
 **4. Qual é o sistema operacional mais usado para acessar nosso portal?**
 
-Para responder a essa pergunta, foi utilizado um **gráfico de área**, trazendo a coluna **"operatingsystem"**, tanto para o eixo X quanto para o eixo Y, concluindo que o sistema operacional mais usado para acessar o portal *"Google Merchandise Store"*, é o **Windows**.
+Para responder a essa pergunta, foi utilizado um *gráfico de área*, trazendo a coluna **"operatingsystem"**, tanto para o eixo X quanto para o eixo Y, concluindo que o sistema operacional mais usado para acessar o portal *"Google Merchandise Store"*, é o *Windows*.
 
 <img src="https://user-images.githubusercontent.com/102304054/175793187-f36e4fd7-2161-4d1c-b90c-f8fb533a2173.png"/><a>
 </p>
 
 **5. Qual é o dispositivo mais usado para acesso ao nosso portal?**
 
-Para responder a essa pergunta, foi utilizado um **gráfico de pizza**, trazendo a coluna **"devicecategory"**, tanto para a opção legenda quanto para a opção valores, concluindo que o dispositivo mais usado para acessar o portal *"Google Merchandise Store"*, é o **Desktop**, e talvez, não valha a pena investir tanto em aplicativos móveis para Smartphone, e principalmente para Tablet.
+Para responder a essa pergunta, foi utilizado um *gráfico de pizza*, trazendo a coluna **"devicecategory"**, tanto para a opção legenda quanto para a opção valores, concluindo que o dispositivo mais usado para acessar o portal *"Google Merchandise Store"*, é o *Desktop*, e talvez, não valha a pena investir tanto em aplicativos móveis para Smartphone, e principalmente para Tablet.
 
 <img src="https://user-images.githubusercontent.com/102304054/175793188-afeb346e-1ef6-4f1c-a3fd-089c276d837a.png"/><a>
 </p>
 
 **6. Qual é o total de faturamento por dia?**
 
-Para responder a essa pergunta, foi utilizado um **gráfico de linha**, trazendo a coluna **"transactionrevenue_st"** para o eixo Y e a coluna "date" para o eixo X, *"maximizando a hierarquia de data"*, apenas com a opção *"Dia"*, gerando uma espécie de serie temporal, ou seja, um evento que acontece ao longo do tempo.
+Para responder a essa pergunta, foi utilizado um *gráfico de linha*, trazendo a coluna **"transactionrevenue_st"** para o eixo Y e a coluna "date" para o eixo X, *"maximizando a hierarquia de data"*, apenas com a opção *"Dia"*, gerando uma espécie de serie temporal, ou seja, um evento que acontece ao longo do tempo.
 
 <img src="https://user-images.githubusercontent.com/102304054/175793190-db13c13f-b0d8-4533-a998-a01f18bbc9eb.png"/><a>
 </p>
 
 Analisando o gráfico a cima, podemos notar que por volta do dia 10 do mês, há um pico em termos de faturamento, ou seja, nesse período houve um maior índice de compras registradas no website.
 
-**7. Como está a evolução das PageViews (Páginas Visualizadas) no portal  "Google Merchandise Store"?**
+**7. Como está a evolução das PageViews (Páginas Visualizadas) no portal "Google Merchandise Store"?**
 
-Para responder a essa pergunta, foi utilizado um **gráfico de KPI**, trazendo a coluna **"PageViews_st"** para a opção Valores, alterando os valores dessa coluna, de *"Soma"* para *"Média"*. Em seguida, a coluna **"date"** foi selecionada e direcionada para a opção Eixo de tendência, *"maximizando a hierarquia de data"*, apenas com a opção *"Dia"*. Por último, a coluna **"PageViews_st"** foi adicionada também em Metas de destino, alterando os valores dessa coluna, de *"Soma"* para *"Máximo"*.
+Para responder a essa pergunta, foi utilizado um *gráfico de KPI*, trazendo a coluna **"PageViews_st"** para a opção Valores, alterando os valores dessa coluna, de *"Soma"* para *"Média"*. Em seguida, a coluna **"date"** foi selecionada e direcionada para a opção Eixo de tendência, *"maximizando a hierarquia de data"*, apenas com a opção *"Dia"*. Por último, a coluna **"PageViews_st"** foi adicionada também em Metas de destino, alterando os valores dessa coluna, de *"Soma"* para *"Máximo"*.
 
 <img src="https://user-images.githubusercontent.com/102304054/175793191-3bcaac1d-1e37-4560-ad00-ccb630776d66.png"/><a>
 </p>
